@@ -10,9 +10,9 @@ import { motion } from 'framer-motion';
 export default function GamesPage() {
 	return (
 		<DefaultLayout>
-			<section className='flex flex-col items-center md:items-start justify-center gap-4 py-8 md:py-10 md:px-4'>
+			<section className='flex flex-col items-center md:items-start justify-center gap-4 py-5 md:py-0 md:px-4'>
 				<div className='inline-block max-w-lg text-center justify-center'>
-					<h1 className='text-4xl pl-0 md:pl-3   pb-4 md:pb-7'>Games</h1>
+					<h1 className='text-4xl pl-0 md:pl-3pb-4 md:pb-7'>Games</h1>
 				</div>
 				<GameSection />
 			</section>
