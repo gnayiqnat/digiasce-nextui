@@ -1,6 +1,5 @@
 import { Spotlight } from '@/components/ui/Spotlight';
 import DefaultLayout from '@/layouts/default';
-import { GameSection } from './games';
 
 export default function IndexPage() {
 	return (
