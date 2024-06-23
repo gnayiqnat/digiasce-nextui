@@ -1,27 +1,22 @@
-import { Link } from "@nextui-org/link";
+import { Link } from '@nextui-org/link';
 import {
 	NavbarBrand,
 	NavbarContent,
 	NavbarItem,
+	NavbarMenu,
+	NavbarMenuItem,
 	NavbarMenuToggle,
-	Navbar as NextUINavbar
-} from "@nextui-org/navbar";
-import { link as linkStyles } from "@nextui-org/theme";
-import clsx from "clsx";
+	Navbar as NextUINavbar,
+} from '@nextui-org/navbar';
+import { link as linkStyles } from '@nextui-org/theme';
+import clsx from 'clsx';
 
-import {
-	DiscordIcon,
-	GithubIcon,
-	TwitterIcon
-} from "@/components/icons";
-import { siteConfig } from "@/config/site";
-import { Image } from "@nextui-org/react";
+import { DiscordIcon, GithubIcon, TwitterIcon } from '@/components/icons';
+import { siteConfig } from '@/config/site';
+import { Image } from '@nextui-org/react';
 
 export const Navbar = () => {
-  
-  
-
-  return (
+	return (
 		<NextUINavbar
 			isBordered
 			maxWidth='xl'
@@ -71,7 +66,6 @@ export const Navbar = () => {
 						<GithubIcon className='text-default-500' />
 					</Link>
 				</NavbarItem>
-				
 			</NavbarContent>
 
 			<NavbarContent className='sm:hidden basis-1 pl-4' justify='end'>
@@ -81,6 +75,26 @@ export const Navbar = () => {
 				<NavbarMenuToggle />
 			</NavbarContent>
 
+			<NavbarMenu>
+				<div className='mx-4 mt-2 flex flex-col gap-2'>
+					{siteConfig.navMenuItems.map((item, index) => (
+						<>
+							{console.log(item)}
+							<NavbarMenuItem key={`${item}-${index}`}>
+								<Link
+									color={
+										item.href === location.pathname ? 'primary' : 'foreground'
+									}
+									href='#'
+									size='lg'
+								>
+									{item.label}
+								</Link>
+							</NavbarMenuItem>
+						</>
+					))}
+				</div>{' '}
+			</NavbarMenu>
 		</NextUINavbar>
 	);
 };
