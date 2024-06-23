@@ -43,6 +43,7 @@ export const Navbar = () => {
 								)}
 								color='foreground'
 								href={item.href}
+								style={{ opacity: item.href === location.pathname ? 1 : 0.6 }}
 							>
 								{item.label}
 							</Link>
