@@ -9,14 +9,14 @@ export default function IndexPage() {
 
 	return (
 		<>
-			<div className='h-lvh'>
+			<div className='h-svh'>
 				<DefaultLayout>
 					<Spotlight
 						className='z-50 -top-40 left-0 md:left-60 md:-top-20'
 						fill='white'
 					/>
 
-					<section className='h-4/6 flex flex-col items-center justify-center gap-3'>
+					<section className='sm:mt-5 flex flex-col items-center justify-center gap-3'>
 						<div className='inline-block max-w-xl text-center justify-center'>
 							<h1 className='py-3 text-4xl md:text-6xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-600 bg-opacity-50'>
 								Digital Ascent
