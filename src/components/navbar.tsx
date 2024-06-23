@@ -13,7 +13,6 @@ import clsx from 'clsx';
 
 import { DiscordIcon, GithubIcon, TwitterIcon } from '@/components/icons';
 import { siteConfig } from '@/config/site';
-import { Image } from '@nextui-org/react';
 
 export const Navbar = () => {
 	return (
