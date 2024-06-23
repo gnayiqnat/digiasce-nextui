@@ -85,7 +85,7 @@ export const Navbar = () => {
 									color={
 										item.href === location.pathname ? 'primary' : 'foreground'
 									}
-									href='#'
+									href={item.href}
 									size='lg'
 								>
 									{item.label}
