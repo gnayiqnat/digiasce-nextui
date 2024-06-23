@@ -17,16 +17,17 @@ export default function IndexPage() {
 					/>
 
 					<section className='h-4/6 flex flex-col items-center justify-center gap-3'>
-						<div className='inline-block max-w-lg text-center justify-center'>
+						<div className='inline-block max-w-xl text-center justify-center'>
 							<h1 className='py-3 text-4xl md:text-6xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-600 bg-opacity-50'>
 								Digital Ascent
 							</h1>
-							<h4 className='text-default-500 text-xl pt-2'>
+							<h4 className='text-default-400 text-xl pt-2'>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed
-								totam error omnis, atque distinctio modi facere?
+								totam error omnis, atque distinctio modi facere? Animi
+								rerum, repellendus expedita necessitatibus odit! consistal.
 							</h4>
 							<br />
-							<div className='mt-6 flex items-center justify-center gap-3 opacity-90'>
+							<div className='mt-3 flex items-center justify-center gap-3 opacity-90'>
 								<motion.div
 									initial={{ opacity: 1 }}
 									whileHover={{ opacity: 0.8 }}
