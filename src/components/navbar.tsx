@@ -42,7 +42,7 @@ export const Navbar = () => {
 								)}
 								color='foreground'
 								href={item.href}
-								style={{ opacity: item.href === location.pathname ? 1 : 0.6 }}
+								style={{ opacity: item.href === location.pathname ? 1 : 0.5 }}
 							>
 								{item.label}
 							</Link>
@@ -75,11 +75,10 @@ export const Navbar = () => {
 						<>
 							<NavbarMenuItem key={`${item}-${index}`}>
 								<Link
-									color={
-										item.href === location.pathname ? 'primary' : 'foreground'
-									}
+									color='primary'
 									href={item.href}
 									size='lg'
+									style={{ opacity: item.href === location.pathname ? 1 : 0.5 }}
 								>
 									{item.label}
 								</Link>
