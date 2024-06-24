@@ -18,7 +18,7 @@ export default function IndexPage() {
 
 					<section className='sm:mt-5 flex flex-col items-center justify-center gap-3'>
 						<div className='inline-block max-w-xl text-center justify-center'>
-							<h1 className='py-3 text-4xl md:text-6xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-600 bg-opacity-50'>
+							<h1 className='py-3 text-5xl md:text-6xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-600 bg-opacity-50'>
 								Digital Ascent
 							</h1>
 							<h4 className='text-default-400 text-xl pt-2'>
@@ -38,7 +38,7 @@ export default function IndexPage() {
 											navigate('/games');
 										}}
 										style={{
-											opacity: 0.75,
+											opacity: 0.8,
 											padding: '7px 16px',
 											height: '45px',
 											borderRadius: '3px',
