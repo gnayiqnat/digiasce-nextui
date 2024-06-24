@@ -75,6 +75,7 @@ export const Navbar = () => {
 						<>
 							<NavbarMenuItem key={`${item}-${index}`}>
 								<Link
+									className='text-2xl'
 									color='primary'
 									href={item.href}
 									size='lg'
