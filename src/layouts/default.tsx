@@ -7,7 +7,7 @@ export default function DefaultLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<div className='relative flex flex-col h-screen overflow-hidden'>
+		<div className='relative flex flex-col h-screen overflow-x-hidden'>
 			<Navbar />
 			<motion.div
 				initial={{ opacity: 0 }}
