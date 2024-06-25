@@ -9,7 +9,7 @@ export default function IndexPage() {
 
 	return (
 		<>
-			<div className='h-svh'>
+			<div className='h-svh overflow-hidden'>
 				<DefaultLayout>
 					<Spotlight
 						className='z-50 -top-40 left-0 md:left-60 md:-top-20'
@@ -23,8 +23,8 @@ export default function IndexPage() {
 							</h1>
 							<h4 className='text-default-400 text-xl pt-2'>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed
-								totam error omnis, atque distinctio modi facere? Animi
-								rerum, repellendus expedita necessitatibus odit! consistal.
+								totam error omnis, atque distinctio modi facere? Animi rerum,
+								repellendus expedita necessitatibus odit! consistal.
 							</h4>
 							<br />
 							<div className='mt-3 flex items-center justify-center gap-3 opacity-90'>
