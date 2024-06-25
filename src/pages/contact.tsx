@@ -1,7 +1,7 @@
 import DefaultLayout from '@/layouts/default';
 import { Button } from '@nextui-org/button';
 import { Input, Textarea } from '@nextui-org/input';
-import { useEffect, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 
 export default function ContactPage() {
 	const [isError, setIsError] = useState(0)
