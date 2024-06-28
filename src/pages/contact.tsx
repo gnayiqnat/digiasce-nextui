@@ -46,7 +46,12 @@ export default function ContactPage() {
 		}, 500);
 
 		setTimeout(() => {
+			// Reset everything
 			setSuccess(false);
+			setTimeForCaptcha(false)
+			setIsError(0)
+			emailInput.current = ''
+			contentInput.current = ''
 		}, 5000);
 	}
 
