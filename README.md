@@ -12,6 +12,7 @@ This is the website for Digital Ascent, an indie game development team.
 - [Tailwind Variants](https://tailwind-variants.org)
 - [TypeScript](https://www.typescriptlang.org)
 - [Framer Motion](https://www.framer.com/motion)
+- [Aceternity](https://ui.aceternity.com)
 - [Supabase](https://supabase.com)
 - [Cloudflare Turnstiles](https://www.cloudflare.com/products/turnstile)
 
