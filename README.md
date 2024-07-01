@@ -32,11 +32,13 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
+**📌 Skip step 1, 2, 3, 4, 5 and 8 if you plan on ditching/reworking the contact us page functionality.**
+
 1. Create a Supabase account
 2. Create a Supabase table named email with 2 columns, email and content.
 3. Get API Key and database URL at [https://supabase.com](https://supabase.com)
 4. Create a Cloudflare account
-5. Get Turnstile site key from [[https://cloudflare.com](https://www.cloudflare.com/products/turnstile/)](https://www.cloudflare.com/products/turnstile/)
+5. Get Turnstile site key from [https://cloudflare.com](https://www.cloudflare.com/products/turnstile/)
 6. Clone the repo
    ```sh
    git clone https://github.com/github_username/repo_name.git
