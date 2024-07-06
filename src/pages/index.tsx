@@ -22,16 +22,12 @@ export default function IndexPage() {
 								Digital Ascent
 							</h1>
 							<h4 className='text-default-400 text-xl pt-2'>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed
-								totam error omnis, atque distinctio modi facere? Animi rerum,
-								repellendus expedita necessitatibus odit! consistal.
+								A passionate team of indie developers, crafting games with captivating
+								stories and innovative mechanics.
 							</h4>
 							<br />
 							<div className='mt-3 flex items-center justify-center gap-3 opacity-90'>
-								<motion.div
-									initial={{ opacity: 1 }}
-									whileHover={{ opacity: 0.8 }}
-								>
+								<motion.div initial={{ opacity: 1 }} whileHover={{ opacity: 0.8 }}>
 									<Button
 										color='primary'
 										onPress={() => {
