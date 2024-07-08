@@ -29,7 +29,7 @@ export const Navbar = () => {
 						color='foreground'
 						href='/'
 					>
-						<img width={35} src='/logo/logo-large.png' alt='Logo' />
+						<img width={35} src='/logo/logo-large.webp' alt='Logo' />
 					</Link>
 				</NavbarBrand>
 				<div className='hidden lg:flex gap-4 justify-start ml-2'>
