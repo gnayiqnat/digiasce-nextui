@@ -72,7 +72,6 @@ export const Navbar = () => {
 			<NavbarMenu>
 				<NavbarContent className='mx-4 mt-2 flex flex-col gap-2'>
 					{siteConfig.navMenuItems.map((item, index) => (
-						<>
 							<NavbarMenuItem key={`${item}-${index}`}>
 								<Link
 									className='text-2xl'
@@ -84,7 +83,6 @@ export const Navbar = () => {
 									{item.label}
 								</Link>
 							</NavbarMenuItem>
-						</>
 					))}
 				</NavbarContent>{' '}
 			</NavbarMenu>
