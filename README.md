@@ -55,12 +55,11 @@ This is an example of how to list things you need to use the software and how to
    VITE_APP_TURNSTILE_KEY=`Enter your Cloudflare Turnstile key`
    ```
 
-
 ## Contributing
 Contributions are welcome! Feel free to submit bug reports, feature requests, or even pull requests to help improve the website for everyone.
 
-## License
-This project is licensed under the MIT License. You can find the full text of the license in the LICENSE file.
+## Legal Notices
+The code in this repository is licensed under the MIT License (see LICENSE.txt). Logos, photos, and other information on this website are copyrighted by Digital Ascent and may not be used without permission.
 
 ## Contact
 For support or questions, you can reach out to the project maintainer at contact@tanqiyang.com
