@@ -32,7 +32,7 @@ export const Navbar = () => {
 						<img width={35} src='/logo/logo-large.webp' alt='Logo' />
 					</Link>
 				</NavbarBrand>
-				<div className='hidden lg:flex gap-4 justify-start ml-2'>
+				<NavbarContent className='hidden lg:flex gap-4 justify-start ml-2'>
 					{siteConfig.navItems.map((item) => (
 						<NavbarItem key={item.href}>
 							<Link
@@ -48,7 +48,7 @@ export const Navbar = () => {
 							</Link>
 						</NavbarItem>
 					))}
-				</div>
+				</NavbarContent>
 			</NavbarContent>
 
 			<NavbarContent
@@ -70,7 +70,7 @@ export const Navbar = () => {
 			</NavbarContent>
 
 			<NavbarMenu>
-				<div className='mx-4 mt-2 flex flex-col gap-2'>
+				<NavbarContent className='mx-4 mt-2 flex flex-col gap-2'>
 					{siteConfig.navMenuItems.map((item, index) => (
 						<>
 							<NavbarMenuItem key={`${item}-${index}`}>
@@ -86,7 +86,7 @@ export const Navbar = () => {
 							</NavbarMenuItem>
 						</>
 					))}
-				</div>{' '}
+				</NavbarContent>{' '}
 			</NavbarMenu>
 		</NextUINavbar>
 	);

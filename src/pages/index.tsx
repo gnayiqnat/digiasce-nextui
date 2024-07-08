@@ -21,10 +21,10 @@ export default function IndexPage() {
 							<h1 className='py-3 text-4xl md:text-6xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-600 bg-opacity-50'>
 								Digital Ascent
 							</h1>
-							<h4 className='text-default-400 text-xl pt-2'>
+							<h2 className='text-default-400 text-xl pt-2'>
 								A passionate team of indie developers, crafting games with captivating
 								stories and innovative mechanics.
-							</h4>
+							</h2>
 							<br />
 							<div className='mt-3 flex items-center justify-center gap-3 opacity-90'>
 								<motion.div initial={{ opacity: 1 }} whileHover={{ opacity: 0.8 }}>
