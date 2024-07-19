@@ -11,10 +11,12 @@ export default function IndexPage() {
 		<>
 			<div className='h-svh overflow-hidden'>
 				<DefaultLayout>
-					<Spotlight
-						className='z-50 -top-40 left-0 md:left-60 md:-top-20'
-						fill='white'
-					/>
+					<div className='-left-10 -top-10 w-lvw absolute h-svh overflow-hidden'>
+						<Spotlight
+							className='z-50 -top-10 left-1/4 md:left-72'
+							fill='white'
+						/>
+					</div>
 
 					<section className='sm:mt-5 flex flex-col items-center justify-center gap-3'>
 						<div className='inline-block max-w-xl text-center justify-center'>
